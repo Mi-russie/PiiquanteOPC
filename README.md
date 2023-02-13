@@ -25,3 +25,6 @@ La semaine dernière, vous avez reçu un message sur votre plateforme de freelan
 ``` node server.js ``` ou ``` nodemon server.js ```
 
 ### Informations a mettre dans le fichier .env: ...
+[Guide+Étapes+Clés_DW_P6.pdf](https://github.com/Mi-russie/PiiquanteOPC/files/10722002/Guide%2BEtapes%2BCles_DW_P6.pdf)
+
+[Requirements_DW_P6.pdf](https://github.com/Mi-russie/PiiquanteOPC/files/10722006/Requirements_DW_P6.pdf)
