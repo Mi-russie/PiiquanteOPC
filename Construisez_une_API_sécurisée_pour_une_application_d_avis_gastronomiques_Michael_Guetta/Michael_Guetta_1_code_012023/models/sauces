@@ -1,0 +1,20 @@
+const mongoose = require('mongoose');
+//je crée mon shéma de données pour interagir avec ma base de données mongodb
+
+//Data model sauce selon le requirement
+const sauceSchema = mongoose.Schema({
+    userId: { type: String, required: true },
+    name: { type: String, required: true },
+    manufacturer: { type: String, required: true },
+    description: { type: String, required: true },
+    mainPepper: { type: String, required: true },
+    imageUrl: { type: String, required: true },
+    heat: { type: Number, required: true },
+    likes: { type: Number, required: true },
+    dislikes: { type: Number, required: true },
+    usersLiked: { type: [String], required: true },
+    usersDisliked: { type: [String], required: true },
+});
+
+//je livre la sauce par uber pour utiliser la sauce lire/enregistrer: j exporte le modèle sauce en fait lol
+module.exports = mongoose.model('Sauce', sauceSchema);
